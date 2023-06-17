@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,99 +8,94 @@
     <link href="https: //fonts.googleapis.com/css2?family= Anton & display = swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulario</title>
-    </head>
-    <body>
-        <header class="container">
-            <h1>Cadastro do cliente</h1>
-            <hr>
-        </header>
-    
-        <form class="container">
-            <div>
-                <label for="nome">nome</label>
-                <input type="text" name="nome" placeholder="Digite seu Nome" required>
-    
-                <label for="email">E-mail</label>
-                <input type="email" name="email" placeholder="Digite seu E-mail" required>
-    
-                <label for="Idade">Idade</label>
-                <input type="number" name="Idade" placeholder="Digite sua Idade" required>
-            </div>
-            
-                <h2>Campos de Endereço</h2>
-                <hr>
-            <div>
+    <header class="container">
+        <h1>Cadastro do cliente</h1>
+        <hr>
+    </header>
+
+    <form class="container">
+        <div>
+            <label for="nome">nome</label>
+            <input type="text" name="nome" placeholder="Digite seu Nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail" required>
+
+            <label for="Idade">Idade</label>
+            <input type="number" name="Idade" placeholder="Digite sua Idade" required>
+        </div>
+
+        <h2>Campos de Endereço</h2>
+        <hr>
+        <div>
             <label for="CEP">CEP</label>
-             <input type="text" name="CEP" placeholder="Digite seu CEP" required>
-             
-             <label for="Estado">Estado</label>
-                    <select name="Estado">
-                        <option>Selecionar</option>
-                        <option>AC</option>
-                        <option>AL</option>
-                        <option>AP</option>
-                        <option>AM</option>
-                        <option>BA</option>
-                        <option>CE</option>
-                        <option>DF</option>
-                        <option>ES</option>
-                        <option>GO</option>
-                        <option>MA</option>
-                        <option>MT</option>
-                        <option>MS</option>
-                        <option>MG</option>
-                        <option>PA</option>
-                        <option>PB</option>
-                        <option>PR</option>
-                        <option>PE</option>
-                        <option>PI</option>
-                        <option>RJ</option>
-                        <option>RN</option>
-                        <option>RS</option>
-                        <option>RO</option>
-                        <option>RR</option>
-                        <option>SC</option>
-                        <option>SP</option>
-                        <option>SE</option>
-                        <option>TO</option>
-                    </select>
-           
-                    <label for="Cidade">Cidade</label>
-                    <input type="text" name="Cidade" placeholder="Digite sua Cidade" required>
-    
-                    <label for="nome-da-rua">Nome da Rua</label>
-                    <input type="text" name="nome-da-rua" placeholder="Digite o nome da sua rua" required>
-           
-                    <label for="número">Número</label>
-                    <input type=" name="Número" placeholder="digite o número" required> 
-            </div>
-    
-            <h2>Cartão de Pagamente</h2>
-            <div>
-                <label for="Num-Cartão">Número do Cartão</label>
-                <input type="text" name="Num-Cartão" placeholder="Dgite o Número do Cartão" required>
-    
-                <label for="Nome-Cartão">Nome no Cartão</label>
-                <input type="text" name="Nome-Cartão" placeholder="Digite o Nome no cartão" required>
-    
-                <label for="Validade">Validade</label>
-                <input type="text" name="Validade" required>
-    
-                <label for="CVV">CVV</label>
-                <input type="text" name="CVV" placeholder="Digite o CVV" required>
-            </div>
-    
-            <hr>
-            <input type="submit" value="Enviar" class="container" style="width: 110px;" id="botao">
-        </form>
-    </body>
-    </html>
+            <input type="text" name="CEP" placeholder="Digite seu CEP" required>
+
+            <label for="Estado">Estado</label>
+            <select name="Estado">
+                <option>Selecionar</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select>
+
+            <label for="Cidade">Cidade</label>
+            <input type="text" name="Cidade" placeholder="Digite sua Cidade" required>
+
+            <label for="nome-da-rua">Nome da Rua</label>
+            <input type="text" name="nome-da-rua" placeholder="Digite o nome da sua rua" required>
+
+            <label for="número">Número</label>
+            <input type=" name=" Número" placeholder="digite o número" required>
+        </div>
+
+        <h2>Cartão de Pagamente</h2>
+        <div>
+            <label for="Num-Cartão">Número do Cartão</label>
+            <input type="text" name="Num-Cartão" placeholder="Dgite o Número do Cartão" required>
+
+            <label for="Nome-Cartão">Nome no Cartão</label>
+            <input type="text" name="Nome-Cartão" placeholder="Digite o Nome no cartão" required>
+
+            <label for="Validade">Validade</label>
+            <input type="text" name="Validade" required>
+
+            <label for="CVV">CVV</label>
+            <input type="text" name="CVV" placeholder="Digite o CVV" required>
+        </div>
+
+        <hr>
+        <input type="submit" value="Enviar" class="container" style="width: 110px;" id="botao">
+    </form>
 </body>
+
+</html>
+</body>
+
 </html>
