@@ -31,6 +31,7 @@ E um botão para enviar o formulário.
 3 - Relate todos os erros encontrados nas issues com comentários e links uteis.
 4 - Pode usar o proprio issues do github desse repositorio ou trello.
 5 - Se for usar o trello colocar o link e deixar aberto o projeto.
+6 - Utilize uma branch com a develop para fazer as suas alterações.
 ````
 
 
