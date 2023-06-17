@@ -1,6 +1,6 @@
 # Formulário simples 5
 
-## Requisitos não funcionais
+## Requisitos funcionais
 ````
 1 - 
 Nome do formulário: Cadastro do Cliente
